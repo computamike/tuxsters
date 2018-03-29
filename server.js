@@ -19,6 +19,8 @@
 
 const { Ignitor } = require('@adonisjs/ignitor')
 
+console.log(process.env)
+
 new Ignitor(require('@adonisjs/fold'))
   .appRoot(__dirname)
   .fireHttpServer()
