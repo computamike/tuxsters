@@ -5,7 +5,7 @@
   "lockfileVersion": 1,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "adonis test"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,12 @@
     "@adonisjs/lucid": "^5.0.2",
     "@adonisjs/session": "^1.0.20",
     "@adonisjs/shield": "^1.0.6",
+    "@adonisjs/vow": "^1.0.15",
     "adonis-schema-builder": "^0.1.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nyc": "^11.6.0"
+  },
   "autoload": {
     "App": "./app"
   }
